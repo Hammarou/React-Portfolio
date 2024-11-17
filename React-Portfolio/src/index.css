@@ -57,6 +57,62 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+
+.ocean-sunset {
+  background-image: url("./assets/images/ocean-sunset.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  max-height: 500px;
+  flex-basis: calc(88% - 1rem);
+  padding: 6em 0 20px 0;
+  margin: 0.5em;
+}
+
+.nature-scenery {
+  background-image: url("./assets/images/nature-scenery.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 200px;
+  max-height: 200px;
+  flex-basis: calc(44% - 1rem);
+  padding: 6em 0 20px 0;
+  margin: 0.5em;
+}
+
+.calm-sea-iceberg {
+  background-image: url("./assets/images/calm-sea-iceberg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 200px;
+  max-height: 200px;
+  flex-basis: calc(44% - 1rem);
+  padding: 6em 0 20px 0;
+  margin: 0.5em;
+}
+
+.beautiful-beach {
+  background-image: url("./assets/images/beautiful-beach.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 200px;
+  max-height: 200px;
+  flex-basis: calc(44% - 1rem);
+  padding: 6em 0 20px 0;
+  margin: 0.5em;
+}
+
+.lonely-road {
+  background-image: url("./assets/images/lonely-road.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 200px;
+  max-height: 200px;
+  flex-basis: calc(44% - 1rem);
+  padding: 6em 0 20px 0;
+  margin: 0.5em;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

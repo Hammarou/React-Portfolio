@@ -4,12 +4,12 @@ import Hero from '../assets/images/02-hero-bg.jpg';
 
 export default function About() {
   return (
-    <div>
+    <div className="min-h-screen pb-[50px]">
       <section className="hero">
         <div >
-          <h2 className='pt-1 pr-2 pb-1 pl-1 text-[8vw] sm:text-[8vw] lg:text-[4vw] font-bold text-[white] bg-[black]'>Welcome!</h2>
+          <h2 className='pt-1 pr-2 pb-1 pl-1 xs:text-[7vw] sm:text-[8vw] lg:text-[4vw] font-bold text-[white] bg-[black]'>Welcome!</h2>
           <figure>
-            <img src={ Hero} alt="hero banner" title="Hero Banner"  className='sm:max-h-[200px] md:max-h-[300px] lg:max-h-[400px] xl:max-h-[500px]' width={"100%"}/>
+            <img src={Hero} alt="hero banner" title="Hero Banner" className='xs:max-h-[150px] sm:max-h-[200px] md:max-h-[300px] lg:max-h-[400px] xl:max-h-[500px]' width={"100%"} />
           </figure>
         </div>
       </section>
@@ -18,11 +18,13 @@ export default function About() {
           <h2 className='pt-1 pr-2 pb-1 pl-1 text-[8vw] sm:text-[8vw] lg:text-[4vw] font-bold '>About me</h2>
           <div id="about mt-[1em] mb-[1em]">
             <figure>
-              <img src={ SelfPortrait } alt="Image of Author"
-                title="Hi, there!" width="350" />
-                <figcaption className="offscreen">
+              <img src={SelfPortrait}     alt="Image of Author"
+                title="Hi, there!"
+                className="xs:max-h-[250px]"
+              />
+              <figcaption className="offscreen">
 
-                </figcaption>
+              </figcaption>
             </figure>
           </div>
           <div className="para mb-[2em] mt-[2em] text-[1.25em]">
@@ -35,16 +37,16 @@ export default function About() {
 
             <br />
 
-              <p>
-                Echo Park sriracha Pinterest vegan biodiesel 90's irony iPhone Kickstarter Carles crucifix kitsch narwhal
-                dreamcatcher pickled trust fund selvage art party letterpress Tumblr post-ironic kogi Thundercats Tonx
-                Brooklyn Pitchfork Odd Future authentic normcore freegan leggings Schlitz chambray organic tousled retro fap
-                squid street art church-key fashion axe Wes Anderson bespoke whatever gentrify banh mi you probably haven't
-                heard of them American Apparel next level pug ugh.
-              </p>
+            <p>
+              Echo Park sriracha Pinterest vegan biodiesel 90's irony iPhone Kickstarter Carles crucifix kitsch narwhal
+              dreamcatcher pickled trust fund selvage art party letterpress Tumblr post-ironic kogi Thundercats Tonx
+              Brooklyn Pitchfork Odd Future authentic normcore freegan leggings Schlitz chambray organic tousled retro fap
+              squid street art church-key fashion axe Wes Anderson bespoke whatever gentrify banh mi you probably haven't
+              heard of them American Apparel next level pug ugh.
+            </p>
           </div>
         </section>
-        </div>
+      </div>
     </div>
   )
 }
