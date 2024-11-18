@@ -60,7 +60,7 @@ export default function Contact() {
       <h1 className="font-bold xs:text-[8vw] xs:mt-[0.75em] ">Contact</h1>
       <form onSubmit={handleSubmit}>
         <label htmlFor="name" className="block mb-2">Name:</label>
-        <input type="text" id="name" name="name" className="xs:w-80 mb-4"
+        <input type="text" id="name" name="name" className="xs:w-80 sm:w-[60] sm: mb-4"
           value={formData.name}
           onChange={handleChange}
           onBlur={handleBlur}

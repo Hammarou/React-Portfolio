@@ -3,13 +3,12 @@
 ## Table of Contents
 
 - [Description](#description)
-- [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Application Screenshots](#application-screenshots)
 - [GitHub Repository Location (HTTPS)](#github-repository-location)
-- [Render Deployment Location (HTTPS)](#github-deployment-location-https)
+- [GitHub Deployment Location (HTTPS)](#github-deployment-location-https)
 - [Credits](#credits)
 - [Contributions](#contributions)
 - [License](#license)
@@ -19,22 +18,16 @@
 
 -Greetings!
 
-The **Note Taker** is a web-based application that can be employed to write and save notes. This application presents fields to the user which can be used to input a note title and text. Furthermore, the application utilizes an Express.js back-end to save and retrieve note data from a JSON file.
+The purpose of this **React Portfolio** application is to display an example of a samples performed by a prospective employee to potential employers/future clientele. The intention is to provide the employer/client the opportunity to review and assess the work samples of the prospective employee to determine their suitability as a hiring candidate.
 
-
-## Features
-
-- **Add notes:** Allows user to create and save an unlimited number of notes. 
-- **Save notes:** Data is sequentially stored locally.
-- **View notes:** All saved notes can be easily viewed and accessed. 
 
 
 ## Technologies Used
 
-- **Node.js:** Runtime environment for executing JavaScript server-side.
-- **Express.js:** A Lightweight web application framework designed to efficiently build web and mobile based applications through Node.js.
-- **UUID:** A 128-bit number that uniquely identifies information across multiple systems and platforms.
-- **Nodemon:** A utility that aids in the development of Node.js applications by automatically restarting the entire application whenever changes are made to the files in the directory.  
+- **React:** 
+- **react-router-dom:** 
+- **tailwindcss:**
+- **vite:** 
 
 
 ## Installation
@@ -43,12 +36,12 @@ To run this application locally, follow these steps:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/Hammarou/Note-Taker.git
+   git clone https://github.com/Hammarou/React-Portfolio.git
    ```
 
 2. Navigate to the application directory:
    ```sh
-   cd note-taker
+   cd react-portfolio
    ```
 
 3. Install the dependencies:
@@ -61,7 +54,7 @@ To run this application locally, follow these steps:
 To start the application, use the command: 
 
 ```sh 
-npm start
+npm run dev
 ```
 
 1. Click the `Get Started` button on the landing page to go to the notes page.
@@ -79,18 +72,20 @@ npm start
 
 ## Application Screenshots
 
-![First screenshot](/public/assets/images/screenshot1.png)
-![Second screenshot](/public/assets/images/screenshot2.png)
+![screenshot1]()
+![screenshot2]()
+![screenshot3]()
+![screenshot4]()
 
 
 ## GitHub Repository Location (HTTPS)
 
-https://github.com/Hammarou/Note-Taker
+https://github.com/Hammarou/React-Portfolio
 
 
-# Render Deployment Location (HTTPS)
+# GitHub Deployment Location (HTTPS)
 
-https://note-taker-v4x4.onrender.com
+
 
 
 ## Credits

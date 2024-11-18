@@ -8,7 +8,7 @@ export default function Header() {
         <h1 className="header__h1 font-bold sm:text-[10vw]">Emeka Okpala</h1>
         <nav className="xs:text-[5vw] ">
             <Link to="/" className="font-bold inline-block pr-1 underline">About</Link>
-            <Link to="/work" className="font-bold inline-block pr-1 underline">Work</Link>
+            <Link to="/portfolio" className="font-bold inline-block pr-1 underline">Portfolio</Link>
             <Link to="/contact" className="font-bold inline-block pr-1 underline">Contact</Link>
             <Link to="/resume" className="font-bold inline-block pr-1 underline">Resume</Link>
         </nav>
