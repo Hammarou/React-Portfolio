@@ -1,12 +1,16 @@
 import React from 'react'
 
 import oceanSunset from '../assets/images/ocean-sunset.jpg'
+import natureScenery from '../assets/images/nature-scenery.jpg'
+import calmSeaIceberg from '../assets/images/calm-sea-iceberg.jpg'
+import beautifulBeach from '../assets/images/beautiful-beach.jpeg'
+import lonelyRoad from '../assets/images/lonely-road.jpg'
 
 
-export default function Work() {
+export default function Portfolio() {
   return (
     <section className="pb-[50px]">
-      <h2 className="mt-[1em] ml-[1.5em] text-[4vw] font-bold">Work</h2>
+      <h2 className="mt-[1em] ml-[1.5em] text-[4vw] font-bold">Portfolio</h2>
       <div className="flex flex-wrap justify-center">
         <div className='ocean-sunset border-4 border-blue-500 border-solid rounded hover:border-red-500 '>
           <a href="#" className="inline-block relative text-[3vw] border-blue-500 min-h-[492px] flex-basis-[100%] flex items-end p-[6em_0_20px_0] m-[1px] bg-opacity-[90%] no-underline bg-blend-soft-light bg-[180%] transition-all duration-[500ms] bg-no-repeat bg-green-200 hover:border-red-500 hover:bg-transparent hover:transition-all hover:duration-[250ms] hover:ease-in bottom-[97px]"

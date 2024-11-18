@@ -6,7 +6,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import About from './components/About';
-import Work from './components/Work';
+import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 import PdfViewer from './components/PdfViewer';
@@ -20,10 +20,11 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<About />} />
-          <Route path="/work" element={<Work />} />
+          <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/resume" element={<PdfViewer />}  />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   )
