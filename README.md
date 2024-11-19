@@ -74,7 +74,7 @@ https://github.com/Hammarou/React-Portfolio
 
 # Netlify Deployment Location (HTTPS)
 
-https://stickemzup-portfolio.netlify.app/
+https://omicron-portfolio.netlify.app
 
 
 ## Credits
