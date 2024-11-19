@@ -56,8 +56,8 @@ export default function Contact() {
 
 
   return (
-    <section className="bg-[linear-gradient(to_bottom_right,_bisque,_beige)] pl-[10px]">
-      <h1 className="font-bold xs:text-[8vw] xs:mt-[0.75em] ">Contact</h1>
+    <section className="bg-[linear-gradient(to_bottom_right,_bisque,_beige)] pl-[10px] xs:pb-[50px] lg:pb-[400px]">
+      <h1 className="font-bold xs:text-[8vw] md:tex-[4vw] xs:mt-[0.75em] ">Contact</h1>
       <form onSubmit={handleSubmit}>
         <label htmlFor="name" className="block mb-2">Name:</label>
         <input type="text" id="name" name="name" className="xs:w-80 sm:w-[60] sm: mb-4"
