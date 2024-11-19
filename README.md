@@ -7,7 +7,7 @@
 - [Installation](#installation)
 - [Usage](#usage)
 - [GitHub Repository Location (HTTPS)](#github-repository-location)
-- [GitHub Deployment Location (HTTPS)](#github-deployment-location-https)
+- [Netlify Deployment Location (HTTPS)](#netlify-deployment-location-https)
 - [Credits](#credits)
 - [Contributions](#contributions)
 - [License](#license)
@@ -72,9 +72,9 @@ Upon visiting the application, viewers will be presented with the 'About' webpag
 https://github.com/Hammarou/React-Portfolio
 
 
-# GitHub Deployment Location (HTTPS)
+# Netlify Deployment Location (HTTPS)
 
-
+https://stickemzup-portfolio.netlify.app/
 
 
 ## Credits
