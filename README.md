@@ -6,7 +6,6 @@
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Application Screenshots](#application-screenshots)
 - [GitHub Repository Location (HTTPS)](#github-repository-location)
 - [GitHub Deployment Location (HTTPS)](#github-deployment-location-https)
 - [Credits](#credits)
@@ -24,10 +23,10 @@ The purpose of this **React Portfolio** application is to display an example of 
 
 ## Technologies Used
 
-- **React:** 
-- **react-router-dom:** 
-- **tailwindcss:**
-- **vite:** 
+- **React:** A JavaSvript library created for the purposes of building user interfaces for sing-paged applications.
+- **react-router-dom:** A package that enables routing capabilitites for React applications.
+- **TailwindCSS:** A utility-first CSS framework that allows users the ability to quickly, and efficiently build custom interfaces
+- **Vite:** A frontend build tool that is designed to improve the deveploment, and efficiency of  web applications.
 
 
 ## Installation
@@ -36,7 +35,7 @@ To run this application locally, follow these steps:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/Hammarou/React-Portfolio.git
+   git clone https://github.com/Hammarou/React-Portfolio
    ```
 
 2. Navigate to the application directory:
@@ -57,25 +56,15 @@ To start the application, use the command:
 npm run dev
 ```
 
-1. Click the `Get Started` button on the landing page to go to the notes page.
+Upon visiting the application, viewers will be presented with the 'About' webpage as the default starting page of the application. To navigate to the other webpages, viewers may follow these instructions:
 
-2. Type the title and content of your note.
+2. Click the `Portfolio` page in header at the top of the page. Then navigate through the webpage by scrowling up or down.  To view each images on the page, simply hover over the image box.
 
-3. To clear the note page of unsaved work, click the `Clear Form` button at the top right of the navigation bar. This will delete the unsaved note that you are currently working on. 
+3.  Click the `Contact` page in header at the top of the page. There is links to the social media social media icon
 
-4. To save a note, click the `Save Note` button next to the `Clear Form` button.
-
-5. All saved notes appear in the sidebar to the left of the page.
-
-6. To delete a saved note, click the corresponding trash icon.
+4. Click the `Contact` page in header at the top of the page.
 
 
-## Application Screenshots
-
-![screenshot1]()
-![screenshot2]()
-![screenshot3]()
-![screenshot4]()
 
 
 ## GitHub Repository Location (HTTPS)
