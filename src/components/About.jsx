@@ -7,7 +7,7 @@ export default function About() {
     <div className="min-h-screen pb-[50px]">
       <section className="hero">
         <div >
-          <h2 className='pt-1 pr-2 pb-1 pl-1 xs:text-[7vw] sm:text-[8vw] lg:text-[4vw] font-bold text-[white] bg-[black]'>Welcome!</h2>
+          <h2 className='pt-1 pr-2 pb-1 pl-1 xs:text-[7vw] sm:text-[8vw] lg:text-[2vw] font-bold text-[white] bg-[black]'>Welcome!!</h2>
           <figure>
             <img src={Hero} alt="hero banner" title="Hero Banner" className='xs:max-h-[150px] sm:max-h-[200px] md:max-h-[300px] lg:max-h-[400px] xl:max-h-[500px]' width={"100%"} />
           </figure>
