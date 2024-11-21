@@ -27,7 +27,7 @@ export default function About() {
               </figcaption>
             </figure>
           </div>
-          <div className="para mb-[2em] mt-[2em] text-[1.25em]">
+          <div className="para mb-[2em] mt-[2em] text-wrap xs:text-[1.25em] text-[1.25em]">
             <p>
               Helvetica put a bird on it church-key Blue Bottle banjo bespoke brunch Etsy authentic Marfa quinoa typewriter plaid
               direct trade small batch wayfarers bicycle rights cliche craft beer gastropub single-origin coffee Godard
