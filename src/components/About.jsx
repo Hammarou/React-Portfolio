@@ -7,20 +7,20 @@ export default function About() {
     <div className="min-h-screen pb-[50px]">
       <section className="hero">
         <div >
-          <h2 className='pt-1 pr-2 pb-1 pl-1 xs:text-[8vw] sm:text-[vw] md:text-[4vw] lg:text-[4vw] 2xl:text-[4vw] font-bold text-[white] bg-[black]'>Welcome!</h2>
+          <h2 className='pt-1 pr-2 pb-1 pl-1 xs:text-[7vw]  sm:text-[6vw] md:text-[5vw] md:text-[4vw] xl:text-[3vw] font-bold text-[white] bg-[black]'>Welcome!</h2>
           <figure>
-            <img src={Hero} alt="hero banner" title="Hero Banner" className='xs:max-h-[150px] sm:max-h-[200px] md:max-h-[300px] lg:max-h-[400px] xl:max-h-[500px]' width={"100%"} />
+            <img src={Hero} alt="hero banner" title="Hero Banner" className='xs:max-h-[150px] sm:max-h-[200px] md:max-h-[250px] lg:max-h-[300px] xl:max-h-[400px]' width={"100%"} />
           </figure>
         </div>
       </section>
       <div className="intro max-w-[90%] ml-[auto] mr-[auto]">
         <section>
-          <h2 className='pt-1 pr-2 pb-1 pl-1 text-[8vw] xs:text-[8vw] lg:text-[4vw] font-bold '>About me</h2>
+          <h2 className='pt-10 pr-2 pb-1 xs:text-[7vw]  sm:text-[6vw] md:text-[5vw] md:text-[4vw] xl:text-[3vw] font-bold '>About me</h2>
           <div id="about mt-[1em] mb-[1em]">
             <figure>
               <img src={SelfPortrait}     alt="Image of Author"
                 title="Hi, there!"
-                className="xs:max-h-[250px]"
+                className="xs:max-h-[200px] sm:max-h-[250px] md:max-h-[300px] lg:max-h-[350px] xl:max-h-[400px] xl:max-h-[450px]"
               />
               <figcaption className="offscreen">
 
